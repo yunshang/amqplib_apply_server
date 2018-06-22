@@ -1,0 +1,18 @@
+{
+    "development": {
+      "mq":{
+        "host":"localhost",
+        "user":"test",
+        "password":"test"
+      },
+      "port": 31000
+    },
+    "production": {
+      "mq":{
+        "host":"",
+        "user":"",
+        "password":""
+      },
+      "port": 31100
+    }
+  }
