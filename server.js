@@ -134,8 +134,8 @@ async function transaction(no, msg, web3, data) {
     }
     result.data.dataId = msg.data.dataId
     result.commandId = 300200
+    console.log(result)
     await mqTask(JSON.stringify(result))
-    console.log(res)
   } catch (error) {
     console.error(error)
   }
